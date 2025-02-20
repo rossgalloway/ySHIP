@@ -4,8 +4,7 @@ projects: ['rossgalloway/3']
 body:
   - type: markdown
     attributes:
-      value: |
-        this is a form
+      value: ### What type of issue is this?
   - type: dropdown
     id: type
     attributes:
@@ -20,6 +19,9 @@ body:
       default: 0
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ### What needs to be shipped
   - type: textarea
     id: info
     attributes:
