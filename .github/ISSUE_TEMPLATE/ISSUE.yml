@@ -17,7 +17,7 @@ body:
         - Feature
         - Prep
         - Wishlist
-      default: choose
+      default: 0
     validations:
       required: true
   - type: textarea
