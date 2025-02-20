@@ -9,7 +9,7 @@ body:
   - type: dropdown
     id: type
     attributes:
-      label: Type
+      label: What type of issue is this?
       options:
         - Bug
         - Minor Change
@@ -20,14 +20,11 @@ body:
       default: 0
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ### What needs to be shipped
   - type: textarea
     id: info
     attributes:
       label: What needs to be shipped?
+      description: Describe what needs to be improved or what feature needs to be added.
       placeholder: ship me!
     validations:
       required: true
