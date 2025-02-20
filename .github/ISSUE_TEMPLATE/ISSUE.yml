@@ -2,6 +2,10 @@ name: Create Issue
 description: Create an issue to ship.
 projects: ['rossgalloway/3']
 body:
+  - type: markdown
+    attributes:
+      value: |
+        this is a form
   - type: dropdown
     id: type
     attributes:
