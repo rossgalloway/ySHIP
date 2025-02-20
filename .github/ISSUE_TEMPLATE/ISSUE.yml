@@ -13,14 +13,14 @@ body:
         - Feature
         - Prep
         - Wishlist
-    default: choose
-  validations:
-    required: true
-- type: textarea
-  id: info
-  attributes:
-    label: What needs to be shipped?
-    placeholder: ship me!
-  validations: 
-    required: true
+      default: choose
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: What needs to be shipped?
+      placeholder: ship me!
+    validations: 
+      required: true
       
