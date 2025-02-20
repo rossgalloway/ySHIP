@@ -1,0 +1,26 @@
+name: Create Issue
+description: Create an issue to ship.
+projects: "ySHIP/3"
+body: 
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Bug
+        - Minor Change
+        - Major Change
+        - Feature
+        - Prep
+        - Wishlist
+    default: choose
+  validations:
+    required: true
+- type: textarea
+  id: info
+  attributes:
+    label: What needs to be shipped?
+    placeholder: ship me!
+  validations: 
+    required: true
+      
