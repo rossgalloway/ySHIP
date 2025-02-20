@@ -4,7 +4,8 @@ projects: ['rossgalloway/3']
 body:
   - type: markdown
     attributes:
-      value: ### What type of issue is this?
+      value: |
+        ### What type of issue is this?
   - type: dropdown
     id: type
     attributes:
@@ -21,7 +22,8 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: ### What needs to be shipped
+      value: |
+        ### What needs to be shipped
   - type: textarea
     id: info
     attributes:
